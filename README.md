@@ -17,9 +17,9 @@ address AGE_Vault = 0x29725Ac55276EdE262ed17F3e95483cAf7DBCc77;  <- overwite the
 8. Edit Line #30
 address AGE_EOS_Community = 0x5d9d570Ab2DfB72c9dCDCA6A5bf3E1dacDa433d9; <- overwrite the address with your shareholder
 9. Edit Line #149
-preSaleEndBlock = SafeMath.add(startBlock, 5 days);      change '5 days' to '10 minutes'
+preSaleEndBlock = SafeMath.add(startBlock, 5 days); change '5 days' to '10 minutes'
 10.Edit Line #150        
-endBlock = SafeMath.add(startBlock, 95 days);            change '95 days to '20 minutes'                 
+endBlock = SafeMath.add(startBlock, 95 days); change '95 days to '20 minutes'                 
 11. IMPORTANT: set from at the top to be owner 
 12. Under select contact to deploy - select the Token (not SafeMath or tokenRecepient - they will 'ride along')
 13. Add some gas if you're in a hurry, and click Deploy
